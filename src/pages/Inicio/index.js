@@ -2,6 +2,7 @@ import Cabecalho from "components/Cabecalho";
 import Footer from "components/Footer";
 import MainContent from "components/MainContent";
 import Projects from "components/Projects";
+import Experiencia from "components/Experiencia";
 
 function Inicio() {
   return (
@@ -9,6 +10,7 @@ function Inicio() {
       <Cabecalho />
       <MainContent />
       <Projects />
+      <Experiencia />
       <Footer />
     </div>
   );
