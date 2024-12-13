@@ -16,7 +16,7 @@
 
 Este é meu portfólio, onde você pode conhecer um pouco mais sobre mim e os projetos que desenvolvi.
 
-- [Acesse clicando aqui](https://eduardoaugustoppgithubio.vercel.app/)
+- [Acesse clicando aqui](https://eduardoaugustopp-portfolio.vercel.app/)
 
 ## �� Tecnologias
 
