@@ -5,8 +5,7 @@ import perfil from "./perfil.png";
 function MainContent() {
   useEffect(() => {
     const matrixContainer = document.getElementById("matrix");
-    const characters =
-      "01";
+    const characters = "01";
 
     const createMatrix = () => {
       matrixContainer.innerHTML = "";
@@ -56,7 +55,7 @@ function MainContent() {
           <h1>
             Desenvolvimento <span style={{ color: "#006400" }}>FrontEnd</span> e{" "}
             <span style={{ color: "#006400" }}>BackEnd</span> para criar sites e
-            sistemas simples.
+            sistemas.
             <br />
             Olá! Me chamo{" "}
             <span style={{ color: "#006400" }}>Eduardo Augusto</span>.
@@ -74,7 +73,8 @@ function MainContent() {
                 que me impulsionam a aprender e a desenvolver continuamente, com
                 experiência em projetos pessoais usando HTML, CSS, JavaScript,
                 Node.js, Express.js e React, além de conhecimentos em bancos de
-                dados como MongoDB, PostgreSQL e PHP.
+                dados como MongoDB, PostgreSQL e PHP. Atualmente, estou
+                estudando e desenvolvendo conhecimentos em Java e MySQL.
               </p>
               <br />
               <p>

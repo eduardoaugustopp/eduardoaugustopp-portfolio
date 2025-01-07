@@ -2,20 +2,20 @@ import React from "react";
 import style from "./Experiencia.module.css";
 
 const cards = [
-  {
-    imagemLink:
-      "https://media.licdn.com/dms/image/v2/C4E0BAQHxARxbs6yBkA/company-logo_200_200/company-logo_200_200/0/1630573593860/liveware_tecnologia_a_servico_ltda_logo?e=2147483647&v=beta&t=D5wJpieb6NXk7iL8aCui_qsSd52Pk94rKKHToiYjJug",
-    empresa: "Liveware",
-    localizacao: "Santa Rita do Sapucaí, MG",
-    inicioMes: "Novembro",
-    inicioAno: "2024",
-    terminoMes: "Atualmente",
-    terminoAno: "",
-    cargo: "Estagiário de desenvolvimento de software",
-    atuacao:
-      "Na Liveware, estou construindo uma base sólida em programação Java, avançando no conhecimento de MySQL e adquirindo experiência tanto em desenvolvimento frontend quanto backend.",
-    link: "https://www.liveware.com.br/",
-  },
+  // {
+  //   imagemLink:
+  //     "",
+  //   empresa: "",
+  //   localizacao: "",
+  //   inicioMes: "",
+  //   inicioAno: "",
+  //   terminoMes: "Atualmente",
+  //   terminoAno: "",
+  //   cargo: "",
+  //   atuacao:
+  //     "",
+  //   link: "",
+  // },
   {
     imagemLink:
       "https://attachments.gupy.io/production/companies/49966/career/107491/images/2022-10-25_17-02_logo.jpg",
