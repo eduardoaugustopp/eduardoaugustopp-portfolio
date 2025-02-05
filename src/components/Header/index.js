@@ -192,7 +192,7 @@ function Header() {
       <RepositoryButton>
         <button>
           <a
-            href="https://github.com/eduardoaugustopp/eduardoaugustopp.github.io"
+            href="https://github.com/eduardoaugustopp/eduardoaugustopp-portfolio"
             target="_blank"
             rel="noopener noreferrer"
           >
