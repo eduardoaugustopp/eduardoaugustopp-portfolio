@@ -162,9 +162,7 @@ function MainContent() {
         <Paragraph>
           <h2>Aqui você encontrará meus estudos</h2>
           <p>
-            Como profissional estou sempre aprimorando minhas habilidades em
-            tecnologia, busco aprofundar minha capacidade de construir soluções
-            que agreguem valor ao negócio. Atualmente meu foco é em Java.
+            Atualmente meu foco é em Java.
           </p>
           <p>
             Também gosto de correr, é uma das minhas atividades favoritas! 🏃‍♂️🚀

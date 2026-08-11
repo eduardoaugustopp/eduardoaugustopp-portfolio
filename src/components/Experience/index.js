@@ -119,6 +119,34 @@ const Link = styled.a`
 const cards = [
   {
     imagemLink:
+      "https://media.licdn.com/dms/image/v2/D4D0BAQHvIDn5brJTrw/company-logo_100_100/company-logo_100_100/0/1730735654396/chmasterdata_astrein_logo?e=1787788800&v=beta&t=iWXA0sP-V-YjzWGgE-5ZRwoXUyUpnl2uNLWOPWlRrYk",
+    empresa: "CH Master Data Astrein",
+    localizacao: "Santa Rita do Sapucaí, MG",
+    inicioMes: "Abril",
+    inicioAno: "2025",
+    terminoMes: "",
+    terminoAno: "",
+    cargo: "Analista de cadastro",
+    atuacao:
+      "Cadastro de materiais no sistema com base na análise de catálogos e dados técnicos de fabricantes.",
+    link: "https://www.chmasterdata.com.br/",
+  },
+  {
+    imagemLink:
+      "https://attachments.gupy.io/production/companies/49966/career/107491/images/2022-10-25_17-02_logo.jpg",
+    empresa: "Instituto Nacional de Telecomunicações",
+    localizacao: "Santa Rita do Sapucaí, MG",
+    inicioMes: "Junho",
+    inicioAno: "2023",
+    terminoMes: "Abril",
+    terminoAno: "2024",
+    cargo: "Técnico de sistemas",
+    atuacao:
+      "Vistoria remota da qualidade da instalação de equipamentos Huawei em sites da Claro e Vivo, através de relatórios técnicos e suporte às equipes de campo.",
+    link: "https://inatel.br/home/",
+  },
+  {
+    imagemLink:
       "https://attachments.gupy.io/production/companies/49966/career/107491/images/2022-10-25_17-02_logo.jpg",
     empresa: "Instituto Nacional de Telecomunicações",
     localizacao: "Santa Rita do Sapucaí, MG",
@@ -128,7 +156,7 @@ const cards = [
     terminoAno: "2022",
     cargo: "Técnico de sistemas",
     atuacao:
-      "Comissionamento e integração remota de sites da Claro | Oi (2g | 3g | 4g | 5g), utilizando ferramentas de gerenciamento nos equipamentos Nokia.",
+      "Comissionamento e integração remota em sites da Claro e Oi (2G/3G/4G/5G), utilizando ferramentas de gerenciamento em equipamentos Nokia.",
     link: "https://inatel.br/home/",
   },
   {
@@ -156,11 +184,11 @@ const cards = [
     terminoAno: "2017",
     cargo: "Técnico de implantação",
     atuacao:
-      "Comissionamento, integração e atividades em altura de sites da Claro (2g | 3g | 4g).",
+      "Comissionamento, integração, vistoria e atividades em altura em sites da Claro (2G/3G/4G).",
     link: "https://www.ericsson.com/pt/about-us/company-facts/ericsson-worldwide/brazil",
   },
   {
-    imagemLink: "https://www.qualitronix.com.br/images/qualitronix-logo.png",
+    imagemLink: "https://media.licdn.com/dms/image/v2/D4D0BAQGj-5HI7Jv40A/company-logo_100_100/company-logo_100_100/0/1736195330016/qualitronix_tecnologia_logo?e=1787788800&v=beta&t=_JAAOm9-T1pmaqoJvsbdSjkH1yxJvGTZUuD7ZJoh_xk",
     empresa: "Qualitronix Tecnologia Ltda",
     localizacao: "Santa Rita do Sapucaí, MG",
     inicioMes: "Março",
@@ -178,7 +206,7 @@ const Experience = () => {
   const criarCard = (card) => {
     const termino = card.terminoAno
       ? `${card.terminoMes} de ${card.terminoAno}`
-      : "Atualmente";
+      : "atual";
 
     return (
       <Item key={card.empresa}>

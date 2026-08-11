@@ -164,7 +164,7 @@ function Header() {
             <NavItem>
               <button id="Curriculum">
                 <a
-                  href="https://drive.google.com/file/d/1fu-wFev9fxRqUDkh58NCKNbMoXPimNkW/view?usp=sharing"
+                  href="https://drive.google.com/file/d/19AjHXJ-1TXAhgVBdF151-PNb2bEPuUt4/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -174,14 +174,14 @@ function Header() {
               </button>
             </NavItem>
             <NavItem>
-              <button id="Projects">
+              <button id="Studies">
                 <a
                   href="https://github.com/eduardoaugustopp?tab=repositories"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <span className="fa-regular fa-laptop-code"></span>
-                  <span>Projetos</span>
+                  <span>Estudos</span>
                 </a>
               </button>
             </NavItem>

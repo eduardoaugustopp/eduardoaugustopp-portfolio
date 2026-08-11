@@ -78,9 +78,6 @@ const SkillImage = styled.img`
 
 const skillsData = {
   frontend: [
-    { src: "https://skillicons.dev/icons?i=html", alt: "HTML" },
-    { src: "https://skillicons.dev/icons?i=css", alt: "CSS" },
-    { src: "https://skillicons.dev/icons?i=javascript", alt: "JavaScript" },
     { src: "https://skillicons.dev/icons?i=react", alt: "React" },
   ],
   backend: [
