@@ -1,7 +1,7 @@
 import Header from "components/Header";
 import Footer from "components/Footer";
 import MainContent from "components/MainContent";
-// import Projects from "components/Projects";
+import Sites from "components/Sites";
 import Experience from "components/Experience";
 import Skills from "components/Skills";
 
@@ -11,7 +11,7 @@ function Home() {
       <Header />
       <MainContent />
       <Skills />
-      {/* <Projects /> */}
+      <Sites />
       <Experience />
       <Footer />
     </div>

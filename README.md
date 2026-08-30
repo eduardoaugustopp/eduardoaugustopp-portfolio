@@ -1,18 +1,18 @@
 <h1 align="center">Portfólio | Eduardo Augusto Paiva Pinto</h1>
 
 <p align="center">
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-estudo">Estudos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
 
 <p align="center">
-  <img alt="projeto Portfólio" src="./public/portfolio.png" width="100%">
+  <img alt="estudo Portfólio" src="./public/portfolio.png" width="100%">
 </p>
 
 
-## 💻 Projeto
+## 💻 Portfólio
 
 Este é meu portfólio
 [acesse clicando aqui](https://eduardoaugustopp-portfolio.vercel.app/).

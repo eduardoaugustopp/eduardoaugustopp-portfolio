@@ -91,7 +91,7 @@ const Footer = () => {
     <FooterWrapper>
       <FooterBar>
         <Copyright>
-          <span>Copyright © 2024 Developed by </span>
+          <span>© 2024 Desenvolvido por </span>
           <Active> Eduardo Augusto</Active>
         </Copyright>
         <Links>

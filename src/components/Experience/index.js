@@ -1,5 +1,11 @@
 import React from "react";
 import styled from "styled-components";
+import chmasterdata from "./chmasterdata.png";
+import inatel from "./inatel.png";
+import ativa from "./ativa.png";
+import ericsson from "./ericsson.png";
+import qualitronix from "./qualitronix.png";
+
 
 const Container = styled.div`
   display: flex;
@@ -118,8 +124,7 @@ const Link = styled.a`
 
 const cards = [
   {
-    imagemLink:
-      "https://media.licdn.com/dms/image/v2/D4D0BAQHvIDn5brJTrw/company-logo_100_100/company-logo_100_100/0/1730735654396/chmasterdata_astrein_logo?e=1787788800&v=beta&t=iWXA0sP-V-YjzWGgE-5ZRwoXUyUpnl2uNLWOPWlRrYk",
+    img: chmasterdata,
     empresa: "CH Master Data Astrein",
     localizacao: "Santa Rita do Sapucaí, MG",
     inicioMes: "Abril",
@@ -132,8 +137,7 @@ const cards = [
     link: "https://www.chmasterdata.com.br/",
   },
   {
-    imagemLink:
-      "https://attachments.gupy.io/production/companies/49966/career/107491/images/2022-10-25_17-02_logo.jpg",
+    img: inatel,
     empresa: "Instituto Nacional de Telecomunicações",
     localizacao: "Santa Rita do Sapucaí, MG",
     inicioMes: "Junho",
@@ -146,8 +150,7 @@ const cards = [
     link: "https://inatel.br/home/",
   },
   {
-    imagemLink:
-      "https://attachments.gupy.io/production/companies/49966/career/107491/images/2022-10-25_17-02_logo.jpg",
+    img: inatel,
     empresa: "Instituto Nacional de Telecomunicações",
     localizacao: "Santa Rita do Sapucaí, MG",
     inicioMes: "Abril",
@@ -160,22 +163,20 @@ const cards = [
     link: "https://inatel.br/home/",
   },
   {
-    imagemLink:
-      "https://ativasolucoes.com.br/wp-content/uploads/2022/10/Logo-ATIVA-Solucoes.png",
+    img: ativa,
     empresa: "ATIVA Soluções Tecnológicas",
     localizacao: "Santa Rita do Sapucaí, MG",
     inicioMes: "Janeiro",
     inicioAno: "2018",
     terminoMes: "Dezembro",
     terminoAno: "2018",
-    cargo: "Técnico em Eletrônica",
+    cargo: "Técnico em eletrônica",
     atuacao:
       "Manutenção das estações pluviométricas do Cemaden em cidades do semiárido.",
     link: "https://ativasolucoes.com.br/",
   },
   {
-    imagemLink:
-      "https://www.ericsson.com/cdn-cgi/image/format=auto,fit=scale-down,width=1440/4981bb/assets/global/qbank/2021/04/21/e-con-vertical-1500x1500px-88604d41d8cd98f00b204e9800998ecf8427e.png",
+    img: ericsson,
     empresa: "Ericsson Gestão e Servicos de Telecomunicações Ltda",
     localizacao: "São Paulo, SP",
     inicioMes: "Maio",
@@ -188,7 +189,7 @@ const cards = [
     link: "https://www.ericsson.com/pt/about-us/company-facts/ericsson-worldwide/brazil",
   },
   {
-    imagemLink: "https://media.licdn.com/dms/image/v2/D4D0BAQGj-5HI7Jv40A/company-logo_100_100/company-logo_100_100/0/1736195330016/qualitronix_tecnologia_logo?e=1787788800&v=beta&t=_JAAOm9-T1pmaqoJvsbdSjkH1yxJvGTZUuD7ZJoh_xk",
+    img: qualitronix,
     empresa: "Qualitronix Tecnologia Ltda",
     localizacao: "Santa Rita do Sapucaí, MG",
     inicioMes: "Março",
@@ -212,7 +213,7 @@ const Experience = () => {
       <Item key={card.empresa}>
         <Card>
           <Header>
-            <Image src={card.imagemLink} alt={card.empresa} />
+            <Image src={card.img} alt={card.empresa} />
             <div>
               <h3>
                 {card.empresa} - {card.cargo}

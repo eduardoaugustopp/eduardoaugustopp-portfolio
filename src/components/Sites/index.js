@@ -1,6 +1,9 @@
 import { useState } from "react";
 import styled from "styled-components";
 import loading from "./loading.png";
+import site1 from "./site1.png";
+import site2 from "./site2.png";
+import site3 from "./site3.png";
 
 const Section = styled.section`
   padding: 70px 0;
@@ -26,7 +29,7 @@ const Title = styled.h2`
   }
 `;
 
-const ContainerProjetos = styled.div`
+const ContainerSites = styled.div`
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
@@ -41,20 +44,26 @@ const ContainerProjetos = styled.div`
     gap: 10px;
   }
 `;
-
-const Projeto = styled.div`
+const Site = styled.div`
   width: 100%;
   max-width: 250px;
-  max-height: 500px;
+  height: 350px; 
   position: relative;
   display: ${(props) => (props.ativo ? "block" : "none")};
   overflow: hidden;
   cursor: pointer;
 
+  a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
   img {
-    height: auto;
+    height: 100%; 
     width: 100%;
     object-fit: cover;
+    object-position: top; 
   }
 
   h3 {
@@ -64,23 +73,27 @@ const Projeto = styled.div`
     position: absolute;
     bottom: 0;
     color: var(--branco);
+    margin: 0;
   }
 
-  &:hover .informacoesProjeto {
+  &:hover .informacoesSite {
     opacity: 0.9;
     background-color: var(--pretoT);
   }
 
   @media (max-width: 1200px) {
     max-width: 220px;
+    height: 310px; 
   }
 
   @media (max-width: 768px) {
     max-width: 180px;
+    height: 250px; 
   }
 `;
 
-const InformacoesProjeto = styled.div`
+
+const InformacoesSite = styled.div`
   background-color: var(--cinza);
   position: absolute;
   top: 0;
@@ -111,7 +124,7 @@ const InformacoesProjeto = styled.div`
   }
 `;
 
-const BtnMostrarProjetos = styled.button`
+const BtnMostrarSites = styled.button`
   background: none;
   border: 1px solid var(--cinza);
   border-radius: 15px;
@@ -143,44 +156,26 @@ const BtnMostrarProjetos = styled.button`
   }
 `;
 
-function Projects() {
+function Sites() {
   const [mostrandoTodos, setMostrandoTodos] = useState(false);
 
-  const projetos = [
+  const sites = [
     {
-      img: loading,
-      title: "",
-      link: "",
+      img: site1,
+      title: "Site 1",
+      link: "https://github.com/eduardoaugustopp/html-css-javascript-frontend",
       description: "",
     },
     {
-      img: loading,
-      title: "",
-      link: "",
+      img: site2,
+      title: "Site 2",
+      link: "https://github.com/eduardoaugustopp/nextjs-typescript-tailwind-frontend",
       description: "",
     },
     {
-      img: loading,
-      title: "",
-      link: "",
-      description: "",
-    },
-    {
-      img: loading,
-      title: "",
-      link: "",
-      description: "",
-    },
-    {
-      img: loading,
-      title: "",
-      link: "",
-      description: "",
-    },
-    {
-      img: loading,
-      title: "",
-      link: "",
+      img: site3,
+      title: "Site 3",
+      link: "https://github.com/eduardoaugustopp/ermpesca",
       description: "",
     },
     {
@@ -197,39 +192,39 @@ function Projects() {
     },
   ];
 
-  const mostrarMaisProjetos = () => {
+  const mostrarMaisSites = () => {
     setMostrandoTodos(true);
   };
 
   return (
-    <Section id="projetos">
-      <Title>Projetos</Title>
+    <Section id="sites">
+      <Title>Sites</Title>
 
-      <ContainerProjetos>
-        {projetos.map((projeto, index) => {
+      <ContainerSites>
+        {sites.map((site, index) => {
           const deveExibir = mostrandoTodos || index < 4;
           return (
-            <Projeto key={index} ativo={deveExibir}>
-              <a href={projeto.link} target="_blank" rel="noopener noreferrer">
-                <img src={projeto.img} alt={projeto.title} />
-                <h3>{projeto.title}</h3>
-                <InformacoesProjeto className="informacoesProjeto">
-                  <p>{projeto.description}</p>
+            <Site key={index} ativo={deveExibir}>
+              <a href={site.link} target="_blank" rel="noopener noreferrer">
+                <img src={site.img} alt={site.title} />
+                <h3>{site.title}</h3>
+                <InformacoesSite className="informacoesSite">
+                  <p>{site.description}</p>
                   <p>🔗 Ver no GitHub Pages</p>
-                </InformacoesProjeto>
+                </InformacoesSite>
               </a>
-            </Projeto>
+            </Site>
           );
         })}
-      </ContainerProjetos>
+      </ContainerSites>
 
       {!mostrandoTodos && (
-        <BtnMostrarProjetos onClick={mostrarMaisProjetos}>
+        <BtnMostrarSites onClick={mostrarMaisSites}>
           Mostrar mais
-        </BtnMostrarProjetos>
+        </BtnMostrarSites>
       )}
     </Section>
   );
 }
 
-export default Projects;
+export default Sites;
