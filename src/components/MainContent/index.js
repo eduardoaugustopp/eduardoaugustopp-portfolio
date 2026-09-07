@@ -143,6 +143,16 @@ const ProfileImage = styled.img`
     height: 150px;
   }
 `;
+    const StravaLink = styled.a`
+      color: #2c3e50;
+      font-weight: bold;
+      text-decoration: none;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: #3498db;
+      }
+    `;
 
 function MainContent() {
   return (
@@ -165,7 +175,14 @@ function MainContent() {
             Atualmente meu foco é em Java.
           </p>
           <p>
-            Também gosto de correr, é uma das minhas atividades favoritas! 🏃‍♂️🚀
+            Também gosto de correr, é uma das minhas atividades favoritas!{' '}
+            <StravaLink 
+              href="https://www.strava.com/athletes/91825181" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Strava 🏃🏻‍♂️
+            </StravaLink>
           </p>
           <SocialLinks>
             <li>
@@ -208,6 +225,7 @@ function MainContent() {
                 <i className="bi bi-file-earmark-arrow-down"></i>
               </a>
             </li>
+            
           </SocialLinks>
         </Paragraph>
 
