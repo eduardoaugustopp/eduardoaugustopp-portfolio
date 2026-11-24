@@ -126,11 +126,10 @@ const Link = styled.a`
     padding: 0.4em 0.8em;
   }
 `;
-
 const cards = [
   {
     img: chmasterdata,
-    empresa: "CH Master Data Astrein",
+    empresa: "CH Master Data",
     localizacao: "Juiz de Fora, MG",
     inicioMes: "Abril",
     inicioAno: "2025",
@@ -138,13 +137,15 @@ const cards = [
     terminoAno: "",
     cargo: "Analista de cadastro",
     atuacao: [
-      "Cadastro de materiais no sistema com base na análise de catálogos e dados técnicos de fabricantes.",
+      "Atuação no cadastro de materiais por meio da revisão e padronização de registros existentes na base de dados corporativa.",
+      "Validação de solicitações de novos itens, realizando análises técnicas a partir de catálogos e especificações de fabricantes.",
+      "Identificação de inconsistências e possíveis duplicidades, além da classificação dos materiais no PDM adequado para garantir a qualidade das informações e o atendimento aos critérios estabelecidos pelos clientes.",
     ],
     link: "https://chmasterdata.com.br",
   },
   {
     img: inatel,
-    empresa: "Instituto Nacional de Telecomunicações (Inatel)",
+    empresa: "Instituto Nacional de Telecomunicações",
     localizacao: "Santa Rita do Sapucaí, MG",
     inicioMes: "Junho",
     inicioAno: "2023",
@@ -152,15 +153,17 @@ const cards = [
     terminoAno: "2024",
     cargo: "Técnico de sistemas",
     atuacao: [
-      "Vistoria remota da qualidade das instalações de equipamentos Huawei em sites das operadoras Claro e Vivo, com tecnologias 2G, 3G, 4G e 5G.",
-      "Análise de registros fotográficos e em vídeo para verificação da conformidade com os padrões técnicos estabelecidos.",
-      "Suporte técnico às equipes de campo na identificação de erros e nas correções necessárias, além de comunicação direta com a Huawei sobre o andamento das atividades nos sites.",
+      "Acompanhamento remoto da qualidade das instalações de equipamentos Huawei em sites das operadoras Claro e Vivo, com tecnologias 2G, 3G, 4G e 5G.",
+      "Conferência de materiais recebidos, validando quantidades e especificações técnicas conforme as notas fiscais.",
+      "Verificação dos registros de segurança das equipes de campo, incluindo uso de EPIs, condições dos veículos e validade de certificações obrigatórias para liberação das atividades.",
+      "Análise técnica de evidências fotográficas e em vídeo para checar a conformidade dos serviços executados com os padrões estabelecidos.",
+      "Suporte técnico às equipes de campo na identificação de falhas e orientação quanto às correções necessárias, mantendo comunicação direta com a Huawei para reportar o status das atividades.",
     ],
     link: "https://inatel.br",
   },
   {
     img: inatel,
-    empresa: "Instituto Nacional de Telecomunicações (Inatel)",
+    empresa: "Instituto Nacional de Telecomunicações",
     localizacao: "Santa Rita do Sapucaí, MG",
     inicioMes: "Abril",
     inicioAno: "2021",
@@ -169,8 +172,8 @@ const cards = [
     cargo: "Técnico de sistemas",
     atuacao: [
       "Comissionamento e integração remota de equipamentos Nokia em sites das operadoras Claro e Oi, com tecnologias 2G, 3G, 4G e 5G.",
-      "Utilização de ferramentas de gerenciamento para ativação e testes de funcionamento da rede.",
-      "Suporte técnico às equipes de campo durante a implantação, auxiliando na verificação de alarmes e solução de falhas, além de comunicação direta com a Nokia sobre o andamento das atividades nos sites.",
+      "Utilização de ferramentas de gerenciamento para configuração, ativação e realização de testes de funcionamento da rede.",
+      "Suporte técnico às equipes de campo durante o processo, auxiliando na verificação de alarmes e solução de falhas, mantendo comunicação direta com a Nokia para reportar o status das atividades.",
     ],
     link: "https://inatel.br",
   },
@@ -184,9 +187,9 @@ const cards = [
     terminoAno: "2021",
     cargo: "Técnico em eletrônica",
     atuacao: [
-      "Atuação em campo nas bases de apoio e praças de pedágio da Rodovia Fernão Dias (de Mairiporã/SP a Betim/MG).",
-      "Instalação e configuração de Plataformas Coletoras de Dados (PCD) utilizadas no monitoramento e controle de outorga de poços artesianos.",
-      "Comunicação direta com a Arteris para alinhamento das atividades, acompanhamento das instalações e suporte durante a execução dos serviços.",
+      "Atuação em campo nas bases de apoio e praças de pedágio da Rodovia Fernão Dias, entre Mairiporã/SP e Betim/MG.",
+      "Instalação, configuração e manutenção de sistemas de telemetria e automação para monitoramento do nível de reservatórios, medição de vazão e controle de outorga de poços artesianos, utilizando painéis de comando elétrico com contatores e inversores de frequência.",
+      "Comunicação direta com a Arteris para alinhamento das atividades, acompanhamento do cronograma e suporte técnico durante a execução dos serviços.",
       "Participação em outros projetos para clientes como Sabesp, Telefônica, ABAVAR e Raízen.",
     ],
     link: "https://ativasolucoes.com.br",
@@ -201,11 +204,11 @@ const cards = [
     terminoAno: "2019",
     cargo: "Técnico em eletrônica",
     atuacao: [
-      "Atuação técnica no Data Center da Oi em São Paulo (SP), com servidores Huawei.",
-      "Execução de cabeamento, instalação de componentes e organização em racks.",
-      "Apoio às equipes remotas da Huawei para acesso, testes e configuração dos sistemas.",
+      "Atuação técnica no Data Center da Oi, em São Paulo/SP, com servidores da fabricante Huawei.",
+      "Instalação de equipamentos, conexão de cabos e organização em racks.",
+      "Suporte presencial às equipes remotas da Huawei, disponibilizando acesso para realização de testes e configurações dos sistemas.",
     ],
-    link: "https://www.linkedin.com/company/bit-tec-tecnologia/home/",
+    link: "https://bit-tec.com.br",
   },
   {
     img: ativa,
@@ -218,7 +221,7 @@ const cards = [
     cargo: "Técnico em eletrônica",
     atuacao: [
       "Atuação em campo na inspeção técnica e manutenção preventiva e corretiva de estações pluviométricas do CEMADEN, em diferentes localidades da região do semiárido brasileiro.",
-      "Verificação e substituição de componentes eletrônicos, sensores, sistemas de alimentação (baterias e painéis solares) e módulos de transmissão de dados.",
+      "Verificação e substituição de componentes eletrônicos, sensores, sistemas de alimentação e módulos de transmissão de dados.",
       "Comunicação com órgãos públicos para localização das estações, planejamento dos deslocamentos e autorização de acesso aos locais.",
       "Participação em outros projetos para clientes como Copasa e Caesb.",
     ],
@@ -226,7 +229,7 @@ const cards = [
   },
   {
     img: ericsson,
-    empresa: "Ericsson Gestão e Serviços de Telecomunicações Ltda.",
+    empresa: "Ericsson",
     localizacao: "São Paulo, SP",
     inicioMes: "Abril",
     inicioAno: "2017",
@@ -234,10 +237,10 @@ const cards = [
     terminoAno: "2017",
     cargo: "Técnico de implantação",
     atuacao: [
-      "Atuação em campo nas capitais de São Paulo (SP) e Rio de Janeiro (RJ).",
-      "Comissionamento, integração e testes de equipamentos em sites da Claro, com tecnologias 2G, 3G e 4G.",
-      "Realização de viradas de antenas durante janelas de manutenção na madrugada.",
-      "Leitura e análise de projetos técnicos (PPI), prestando suporte às equipes de campo quanto aos padrões e procedimentos de instalação.",
+      "Atuação em campo nas capitais de São Paulo/SP e Rio de Janeiro/RJ.",
+      "Comissionamento, integração e testes de equipamentos, incluindo a identificação e correção de alarmes em sites da Claro, com tecnologias 2G, 3G e 4G.",
+      "Acompanhamento de viradas de antenas durante janelas de manutenção na madrugada.",
+      "Leitura e análise de projetos técnicos, prestando suporte às equipes de campo quanto aos padrões e procedimentos de instalação.",
       "Recebimento e conferência técnica de materiais, vistoria da qualidade das instalações e execução de atividades em altura durante os processos de implantação.",
     ],
     link: "https://ericsson.com",
@@ -253,11 +256,12 @@ const cards = [
     cargo: "Auxiliar técnico",
     atuacao: [
       "Manutenção corretiva de placas eletrônicas de sensores de presença, utilizando multímetro, estação de solda e fonte de bancada.",
-      "Identificação de falhas em circuitos, substituição de componentes eletrônicos e realização de testes funcionais antes da liberação dos equipamentos.",
+      "Identificação de falhas em circuitos, substituição de componentes eletrônicos e realização de testes funcionais após os reparos.",
     ],
     link: "https://qualitronix.com.br",
   },
 ];
+
 
 const Experience = () => {
   const criarCard = (card) => {
