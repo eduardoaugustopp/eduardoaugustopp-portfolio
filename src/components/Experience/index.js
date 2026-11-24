@@ -193,7 +193,7 @@ const cards = [
   },
   {
     img: bittec,
-    empresa: "Bit Tec",
+    empresa: "BIT-TEC Tecnologia",
     localizacao: "São Paulo, SP",
     inicioMes: "Janeiro",
     inicioAno: "2019",
@@ -201,7 +201,7 @@ const cards = [
     terminoAno: "2019",
     cargo: "Técnico em eletrônica",
     atuacao: [
-      "Atuação técnica no Data Center da Oi, em São Paulo (SP), com servidores Huawei.",
+      "Atuação técnica no Data Center da Oi em São Paulo (SP), com servidores Huawei.",
       "Execução de cabeamento, instalação de componentes e organização em racks.",
       "Apoio às equipes remotas da Huawei para acesso, testes e configuração dos sistemas.",
     ],
