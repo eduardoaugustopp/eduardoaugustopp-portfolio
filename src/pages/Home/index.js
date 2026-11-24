@@ -4,12 +4,14 @@ import MainContent from '../../components/MainContent';
 import Sites from '../../components/Sites';
 import Experience from '../../components/Experience';
 import Skills from '../../components/Skills';
+import Courses from '../../components/Courses';
 
 function Home() {
   return (
     <div>
       <Header />
       <MainContent />
+      <Courses />
       <Skills />
       <Sites />
       <Experience />
