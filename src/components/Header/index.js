@@ -164,7 +164,7 @@ function Header() {
             <NavItem>
               <button id="Curriculum">
                 <a
-                  href="https://drive.google.com/file/d/19AjHXJ-1TXAhgVBdF151-PNb2bEPuUt4/view?usp=sharing"
+                  href="https://drive.google.com/file/d/16I-ChXWuANao2xZozTgvcnHQ5EmwBiLr/view"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

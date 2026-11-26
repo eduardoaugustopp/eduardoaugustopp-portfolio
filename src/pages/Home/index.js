@@ -2,7 +2,6 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import MainContent from '../../components/MainContent';
 import Sites from '../../components/Sites';
-import Experience from '../../components/Experience';
 import Skills from '../../components/Skills';
 import Courses from '../../components/Courses';
 
@@ -14,7 +13,6 @@ function Home() {
       <Courses />
       <Skills />
       <Sites />
-      <Experience />
       <Footer />
     </div>
   );
