@@ -1,6 +1,5 @@
 import { useState } from "react";
 import styled from "styled-components";
-import loading from "./loading.png";
 import site1 from "./site1.png";
 import site2 from "./site2.png";
 import site3 from "./site3.png";
@@ -44,6 +43,7 @@ const ContainerSites = styled.div`
     gap: 10px;
   }
 `;
+
 const Site = styled.div`
   width: 100%;
   max-width: 250px;
@@ -91,7 +91,6 @@ const Site = styled.div`
     height: 250px; 
   }
 `;
-
 
 const InformacoesSite = styled.div`
   background-color: var(--cinza);
@@ -178,18 +177,6 @@ function Sites() {
       link: "https://github.com/eduardoaugustopp/ermpesca",
       description: "",
     },
-    {
-      img: loading,
-      title: "",
-      link: "",
-      description: "",
-    },
-    {
-      img: loading,
-      title: "",
-      link: "",
-      description: "",
-    },
   ];
 
   const mostrarMaisSites = () => {
@@ -218,7 +205,7 @@ function Sites() {
         })}
       </ContainerSites>
 
-      {!mostrandoTodos && (
+      {!mostrandoTodos && sites.length > 4 && (
         <BtnMostrarSites onClick={mostrarMaisSites}>
           Mostrar mais
         </BtnMostrarSites>
